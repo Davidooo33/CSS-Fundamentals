@@ -1,0 +1,36 @@
+body {
+   color: white; 
+}
+
+.flex-container {
+    background-color: lightgray;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+}
+
+.flex-item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.flex-item-2 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    flex-grow: 2;
+}
+
+.flex-item-3 {
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+}
+
+.flex-item-4 {
+    width: 100px;
+    height: 100px;
+    background-color:cyan ;
+}
