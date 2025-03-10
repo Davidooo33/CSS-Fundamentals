@@ -1,0 +1,48 @@
+.card-1 {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.card-1:hover {
+    transform: scale(1.2, 1.5);
+}
+
+.card-2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.card-2:hover {
+    transform: skew(20deg, 0);
+}
+
+.card-3 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.card-3:hover {
+    transform: rotate(45deg);
+}
+
+.card-4 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.card-4:hover {
+    transform: translate(100px, 100px);
+}
+
