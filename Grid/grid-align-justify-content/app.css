@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    width: 800px;
+    height: 800px;
+    justify-content: center; /* default is start, this aligns grid tracks on the row axis. Only works when the grid container is bigger than the content itself */
+    align-content: center;  /* default is start, this aligns grid tracks rows on the column axis */
+    background-color: black;
+}
+
+.grid-item-1 {
+    background-color: aqua;
+}
+
+.grid-item-2 {
+    background-color: blue;
+}
+
+.grid-item-3 {
+    background-color: brown;
+}
+
+.grid-item-4 {
+    background-color: yellow;
+}
+
+.grid-item-5 {
+    background-color: springgreen;
+}
+
+.grid-item-6 {
+    background-color: saddlebrown;
+}
+
+.grid-item-7 {
+    background-color: purple;
+}
+
+.grid-item-8 {
+    background-color: orange;
+}
