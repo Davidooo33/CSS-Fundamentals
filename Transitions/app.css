@@ -1,0 +1,13 @@
+.card {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    transition: 2s;
+}
+
+/* transition: thing-to-change(optional), time the change to take, timing function(optional) can also add more things to change and timings + functions to the same transitions just at the end */
+
+.card:hover {
+    background-color: lightcoral;
+    border-radius: 50%;
+}
