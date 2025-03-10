@@ -1,0 +1,27 @@
+h1 {
+    color: red;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 1500px) { 
+    h1 {
+        color: blue;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        color: yellow;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        color: blueviolet;
+        font-size: 20px;
+    }
+    
+}
