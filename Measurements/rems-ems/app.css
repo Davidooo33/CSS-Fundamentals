@@ -1,0 +1,38 @@
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+a   {
+    padding: 2rem;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.em-container-1 {
+    font-size: 16px;
+}
+
+.em-container-2 {
+    font-size: 24px;
+}
+
+.h1-em {
+    font-size: 2em;
+
+}
+
+.p-em {
+    font-size: 1em;
+}
+
+.a-em {
+    font-size: 0.5em;
+    background-color: aqua;
+}
+
